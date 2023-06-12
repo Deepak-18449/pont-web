@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gride-conter{
+            margin: auto;
+            padding-top: 0;
+            background-color: blue;
+            display: grid;
+            grid-template-areas: 
+            'header header header header header header header header'
+            ;
+            justify-content: space-between;
+            align-items: center;
+            grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+        }
+        a{
+            color: slategray;
+            font-size: 20px;
+            text-align: center;
+        }
+        p{
+            font-size: 40px;
+            text-align: center;
+        }
+        .gride-conter > p:hover{
+            color: gray;
+            border: 2px solid black;
+        }
+        a:hover{
+            color: chartreuse;
+            text-decoration: underline;
+        }
+        .back{
+            background-image: url('');
+        }
+        .p0{
+            background-image: url("/Users/Default/Desktop/banner.jpg");
+        }
+        .down{
+            size: 30px;
+            text-align: center;
+        }
+        .about1{
+            background-color: lightgray;
+        }
+        h1{
+            text-align: center;
+        }
+        .p1{
+            margin-left: 10%;
+            margin-right: 10%;
+            font-size: 30px;
+            text-align: center;
+        }
+        .p2{
+            margin-left: 10%;
+            margin-right: 10%;
+            font-size: 20px;
+            text-align: center;
+        }
+        .p3{
+            margin-left: 10%;
+            margin-right: 10%;
+            font-size: 15px;
+            text-align: center;
+        }
+        .p4{
+            margin-left: 10%;
+            margin-right: 10%;
+            font-size: 10px;
+            text-align: center;
+        }
+        .flex{
+            -ms-flex-align: center;
+        }
+        h2{
+         text-align: center;
+         font: size 20px;;
+        }
+        .pic{
+            
+        }
+        .pic > p{
+            margin-left: 10%;
+            margin-right: 10%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            size: 10%;
+        }
+        .pic:hover{
+            display: block;
+            border: 2px solid red;
+            text-align: center;
+            background-color: rgb(169, 44, 44);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="gride-conter">
+        <img src="/Users/Deepak 1/Documents/logo.png" alt="">
+        <span class="home"><a href="#HOME"><i class="fa fa-home" aria-hidden="true"></i>HOME</a></span>
+        <span class="about"><a href="#ABOUT"><i class="fa fa-address-book" aria-hidden="true"></i>ABOUT</a></span>
+        <span class="work"><a href="#WORK"><i class="fa fa-building" aria-hidden="true"></i>WORK</a></span>
+        <span class="blog"><a href="#BLOG"><i class="fa fa-rss" aria-hidden="true"></i>BlOG</a></span>
+        <span class="contact"><a href="#CONTACT"><i class="fa fa-address-book" aria-hidden="true"></i>CONTACT</a></span>
+        <input type="submit" value="Text For Quter">
+    </div>
+    <div class="back">
+    <div>
+        <p class="p0">A multi-talented freelance web desiger & front-end developer</p>
+    </div>
+    <div class="down">
+        <img src="/Users/Deepak 1/Downloads/sad boy/down.png" alt="">
+    </div>
+    </div>
+    <div class="about1">
+        <h1>ABOUT</h1>
+        <p class="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa quasi cumque ullam explicabo fugiat officia sequi aut itaque laudantium eligendi quae at placeat dignissimos nostrum ipsa, autem harum facere quidem atque libero velit deleniti, nisi unde reiciendis. Aut voluptatibus, voluptatem ratione omnis, earum doloremque ea, quibusdam maxime vero ut tenetur.</p>
+        <p class="p2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At fugit earum, nostrum quo aut non tempore numquam, laudantium modi recusandae dolorem rem. Omnis dignissimos tempora ad earum expedita maxime incidunt veritatis neque sed. Totam magnam officiis omnis numquam iste id. Maxime laborum, porro ut nobis ducimus dolore consequuntur rerum iusto?</p>
+        <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptatum illum ipsum quas voluptates nihil et similique cupiditate fugiat aperiam fuga non assumenda alias, repudiandae beatae! Ullam rerum nesciunt in sequi rem quis quibusdam officiis id deserunt optio ea, veritatis deleniti architecto quidem, dolor repellat debitis doloribus sunt doloremque cupiditate.</p>
+        <p class="p4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, quisquam provident consequuntur sed qui libero praesentium fuga modi a minus velit perspiciatis assumenda beatae exercitationem, dolores optio quod saepe. Qui, nam. Fugit, nesciunt aut ducimus incidunt in quibusdam libero culpa amet quisquam tenetur inventore nobis deleniti ad. Error, itaque aliquam.</p>
+    <div>
+        <center><img src="/Users/Deepak 1/Downloads/sad boy/down.png" alt=""></center>
+        </div>
+    </div>
+    <div>
+        <h1>WORK</h1>
+    </div>
+    <div class="flex">
+        <div class="">
+        <img src="/Users/Deepak 1/Desktop/images/pic.jpg" alt="error">
+        </div>
+        <div class="pic">
+        <h2>CRUSCHIFORM</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus pariatur saepe officiis possimus, sint officia ducimus aspernatur eius incidunt impedit nisi fugit, necessitatibus hic vero nihil totam accusantium, recusandae ad.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
